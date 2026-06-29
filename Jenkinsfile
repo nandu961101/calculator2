@@ -21,11 +21,7 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh '''
-                ./venv/bin/pip install -r requirements.txt
-                '''
-            }
-        }
+                s
 
         stage('Run Calculator Script') {
             steps {
